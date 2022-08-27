@@ -22,11 +22,11 @@ You just need to set the environment variable in the scripts below for your envi
 
 ```bash
 # create a directory for snippet box
-mkdir ~/src/snippit-box
+mkdir ~/src/snippet-box
 
 # pull from github the required files for snippet box
-cd ~/src/snippit-box
-git pull ???
+cd ~/src/snippet-box
+git pull https://github.com/jeffskinnerbox/snippet-box.git
 ```
 
 ## Install Snippet Box (on Linux)
@@ -90,10 +90,10 @@ How to do this is shown below:
 
 ```bash
 # log into the snippet-box docker container and check out its operational status
-sudo docker exec -it snippit-box bash
+sudo docker exec -it snippet-box bash
 
 # kill the container
-sudo docker kill snippit-box
+sudo docker kill snippet-box
 
 # remove the container image
 sudo docker rmi pawelmalak/snippet-box
