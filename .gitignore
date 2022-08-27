@@ -67,7 +67,7 @@ secrets*
 ### Logs & Databases ###
 *.log
 *.sql
-*.sqlite
+*.sqlite*
 *.dblite
 .ipynb_checkpoints
 .ropeproject
